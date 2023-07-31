@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.util.ArrayList;
+import java.util.*;
 
 public class Main {
     static ArrayList<Reporte> reportes = new ArrayList<>();
