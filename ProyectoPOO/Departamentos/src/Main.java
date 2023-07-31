@@ -49,7 +49,7 @@ public class Main {
                     JOptionPane.showMessageDialog(null, "Reporte enviado!!!", "", JOptionPane.QUESTION_MESSAGE);
                 }
                 case "3" -> {
-                    generarReporte("la solicitud:");
+                    generarReporte("la solicitud es:");
                     JOptionPane.showMessageDialog(null, "Solicitud enviada!!!\nTiene hasta la fecha del siguiente corte para desalojar.\nGracias por su estancia.", "", JOptionPane.QUESTION_MESSAGE);
                     iniciarSesion();
                 }
